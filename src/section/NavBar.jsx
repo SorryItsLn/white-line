@@ -31,7 +31,7 @@ const NavBar = () => {
       </section>
       <section>
         <div className="w-full h-16 bg-gray-200 flex justify-center items-center  ">
-          <div className="flex justify-between items-center w-[650px] text-xl">
+          <div className="flex justify-between items-center w-[650px] text-xl font-montserrat font-semibold text-slate-600">
             <a className="" href="">
               {" "}
               Home
