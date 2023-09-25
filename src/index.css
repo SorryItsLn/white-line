@@ -17,7 +17,7 @@
     margin: 0 auto;
   }
   .img{
-    max-width: 2000;
+    max-width:max-content;
     margin: 0 auto;
   }
 
@@ -56,6 +56,6 @@
   }
 
   .info-text {
-    @apply font-montserrat text-slate-gray text-lg leading-7;
+    @apply font-montserrat text-slate-400 text-lg leading-7;
   }
 }

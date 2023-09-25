@@ -19,7 +19,7 @@ const Welcome = () => {
               className="m-3 hover:scale-105 ease-in duration-300"
               width={354}
               height={404}
-              hjekey={item.id}
+              key={item.id}
               src={item.imgURL}
               alt={item.id}
             />

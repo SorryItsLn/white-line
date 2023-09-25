@@ -10,13 +10,13 @@ const NavBar = () => {
   return (
     <header>
       <section className=" mt-4 flex  max-container  items-center justify-between">
-        <div className="flex hover:scale-105 cursor-pointer">
+        <div className=" w-[26%] flex hover:scale-105 cursor-pointer">
           <img width={30} height={30} src={search} alt="search" />
         </div>
-        <div className=" flex ">
+        <div className=" w-[33%] flex ">
           <img src={logoNav} alt="logoNav" />
         </div>
-        <div className="flex  items-center justify-around  ">
+        <div className="  flex  items-center justify-around  ">
           <img
             className="m-3"
             width={35}
@@ -31,7 +31,7 @@ const NavBar = () => {
       </section>
       <section>
         <div className="w-full h-16 bg-gray-200 flex justify-center items-center  ">
-          <div className="flex justify-between items-center w-[650px] text-xl font-montserrat font-semibold text-slate-600">
+          <div className="flex justify-between items-center w-[650px] text-xl font-montserrat font-semibold text-gray-500">
             <a className="" href="">
               {" "}
               Home
