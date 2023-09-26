@@ -19,7 +19,7 @@ const Join = () => {
           autoComplete="email"
           className="w-[400px] ml-4 mt-2 h-[45px] outline-none bg-gray-200"
           type="text"
-          placeholder="Email"
+          placeholder="EmailЯЧС"
         />
         <button className=" w-[30] h-[45]  bg-[#646464]">
           <img
