@@ -3,6 +3,7 @@ import mainBg from "./assets/img/homeBg.png";
 import Welcome from "./section/Welcome";
 import bgSecond from "./assets/img/bgSecond.png";
 import ShopOur from "./section/ShopOur";
+import Join from "./section/Join";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         alt="bgSecond"
       />
       <ShopOur />
+      <Join />
     </main>
   );
 }

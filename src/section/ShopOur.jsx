@@ -20,14 +20,18 @@ const ShopOur = () => {
           </h2>
         </div>
 
-        <div className=" w-[70%] h-[950px] bg-slate-50 flex flex-wrap justify-around items-center ">
+        <div className=" w-[70%] h-[980px] mb-6 bg-slate-50 flex flex-wrap justify-around items-center ">
           {shopOurConst.map((item) => (
             <ShopOurCard
+              key={item.name}
               imgURL={item.imgURL}
               price={item.price}
               name={item.name}
             />
           ))}
+        </div>
+        <div className="text-lg  font-montserrat mb-5 h-[45px] w-[150px] flex justify-center items-center tracking-wider text-white bg-[#545454]">
+          <a href="zxc">View all</a>
         </div>
       </div>
     </section>
