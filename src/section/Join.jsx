@@ -3,7 +3,7 @@ import arrowRight from "../assets/icons/arrow-right.png";
 
 const Join = () => {
   return (
-    <section className=" flex items-center justify-center flex-col">
+    <section className=" flex items-center justify-center flex-col mb-24">
       <h1 className=" font-montserrat  text-gray-600 font-bold text-2xl tracking-widest mt-12">
         JOIN THE LIST, GET 10% OFF YOUR FIRST PURCHASE!
       </h1>
@@ -19,13 +19,13 @@ const Join = () => {
           autoComplete="email"
           className="w-[400px] ml-4 mt-2 h-[45px] outline-none bg-gray-200"
           type="text"
-          placeholder="EmailЯЧС"
+          placeholder="Email"
         />
-        <button className=" w-[30] h-[45]  bg-[#646464]">
+        <button className=" w-[50px] h-[50px]  bg-[#646464]">
           <img
             className="m-2"
             height={40}
-            width={36}
+            width={30}
             src={arrowRight}
             alt="arrowRight"
           />

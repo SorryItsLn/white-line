@@ -4,7 +4,7 @@ import { shopOurConst } from "../constants/constants";
 const ShopOurCard = ({ imgURL, price, name }) => {
   return (
     <div className=" cursor-pointer  bg-gray-200 ">
-      <div className="overflow-hidden inline-block m-0 p-0">
+      <div className="overflow-hidden inline-blokc m-0 p-0">
         <img
           className=" hover:scale-105 ease-in z-0 duration-300 mt-0 pt-0 "
           width={351}

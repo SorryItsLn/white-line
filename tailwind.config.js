@@ -18,6 +18,9 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"],
         lora: ["Lora", "sans-serif"],
       },
+      backgroundImage: {
+        overhead: "url('./assets/img/background-effect.webp')",
+      },
     },
   },
   plugins: [],

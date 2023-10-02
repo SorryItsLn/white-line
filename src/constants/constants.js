@@ -10,6 +10,10 @@ import shop4 from "../assets/shopour/shop4.webp";
 import shop5 from "../assets/shopour/shop5.webp";
 import shop6 from "../assets/shopour/shop6.webp";
 
+import blog1 from "../assets/blog/hutomo-abrianto-nPdsMgvL9QM-unsplash_2.webp";
+import blog2 from "../assets/blog/le-buzz-zQLYPVt89d4-unsplash.webp";
+import blog3 from "../assets/blog/sule-makaroglu-ERYdlJuRnHI-unsplash.webp";
+
 export const welcomePage = [
   { id: 1, href: "#bestsellers", imgURL: `${welcome1}` },
   { id: 2, href: "#forhome", imgURL: `${welcome2}` },
@@ -29,4 +33,10 @@ export const shopOurConst = [
   { id: 4, name: "EBOOK TEMPLATE", price: "500$", imgURL: `${shop4}` },
   { id: 5, name: "THANK YOU CARD", price: "500$", imgURL: `${shop5}` },
   { id: 6, name: "BUSINESS CARD", price: "5$", imgURL: `${shop6}` },
+];
+
+export const blogConst = [
+  { id: 1, name: "OUR FAVE WEBSITE TO DIY YOUR DECOR", imgURL: `${blog1}` },
+  { id: 2, name: "COME BRUNCH WITH ME", imgURL: `${blog2}` },
+  { id: 3, name: "CREATE A COZY CORNER", imgURL: `${blog3}` },
 ];

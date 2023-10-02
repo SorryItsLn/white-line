@@ -4,6 +4,9 @@ import Welcome from "./section/Welcome";
 import bgSecond from "./assets/img/bgSecond.png";
 import ShopOur from "./section/ShopOur";
 import Join from "./section/Join";
+import Overhead from "./section/Overhead";
+import blogBg from "./assets/img/blog-banner.webp";
+import BlogBaner from "./section/BlogBaner";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
       />
       <ShopOur />
       <Join />
+      <Overhead />
+      <img className="w-full cursor-pointer " src={blogBg} alt="blogBg" />
+      <BlogBaner />
     </main>
   );
 }
