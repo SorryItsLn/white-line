@@ -4,7 +4,7 @@ import { blogConst } from "../constants/constants";
 
 const BlogBaner = () => {
   return (
-    <section className="flex justify-center items-center bg-[#71717127]">
+    <section className="flex justify-center items-center bg-[#71717127]  h-[800px]">
       {blogConst.map((item) => (
         <div className=" ">
           <BlogCart

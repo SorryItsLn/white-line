@@ -1,30 +1,24 @@
-import NavBar from "./section/NavBar";
-import mainBg from "./assets/img/homeBg.png";
-import Welcome from "./section/Welcome";
-import bgSecond from "./assets/img/bgSecond.png";
-import ShopOur from "./section/ShopOur";
-import Join from "./section/Join";
-import Overhead from "./section/Overhead";
-import blogBg from "./assets/img/blog-banner.webp";
-import BlogBaner from "./section/BlogBaner";
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import Faq from "./pages/Faq";
+import Shop from "./pages/Shop";
 
 function App() {
   return (
-    <main>
-      <NavBar />
-      <img className="w-full cursor-pointer " src={mainBg} alt="mainBg" />
-      <Welcome />
-      <img
-        className=" cursor-pointer scale-100  w-full"
-        src={bgSecond}
-        alt="bgSecond"
-      />
-      <ShopOur />
-      <Join />
-      <Overhead />
-      <img className="w-full cursor-pointer " src={blogBg} alt="blogBg" />
-      <BlogBaner />
-    </main>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/*" element={<Home />} />
+      </Routes>
+    </>
   );
 }
 

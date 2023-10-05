@@ -5,6 +5,7 @@ import faccebok from "../assets/icons/faccebook.png";
 import inst from "../assets/icons/inst.png";
 import yt from "../assets/icons/youtube.png";
 import cart from "../assets/icons/cart.png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -32,15 +33,15 @@ const NavBar = () => {
       <section>
         <div className="w-full h-16 bg-gray-200 flex justify-center items-center  ">
           <div className="flex justify-between items-center w-[650px] text-xl font-montserrat font-semibold text-gray-500">
-            <a className="" href="">
+            <Link className="" href="/home">
               {" "}
               Home
-            </a>
-            <a href=""> Shop</a>
-            <a href="">About</a>
-            <a href=""> Blog</a>
-            <a href="">Faq</a>
-            <a href=""> Contact</a>
+            </Link>
+            <Link to="/shop"> Shop</Link>
+            <Link to="/about">About</Link>
+            <Link to="/blog"> Blog</Link>
+            <Link to="/faq">Faq</Link>
+            <Link to="/contact"> Contact</Link>
           </div>
         </div>
       </section>
