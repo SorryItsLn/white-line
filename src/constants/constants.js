@@ -40,3 +40,21 @@ export const blogConst = [
   { id: 2, name: "COME BRUNCH WITH ME", imgURL: `${blog2}` },
   { id: 3, name: "CREATE A COZY CORNER", imgURL: `${blog3}` },
 ];
+
+export const templates = [
+  { id: 1, name: "Ceramic mug", price: "500$", imgURL: `${shop1}` },
+  {
+    id: 2,
+    name: "White & Blue Linen Pillows",
+    price: "450$",
+    imgURL: `${shop2}`,
+  },
+  { id: 3, name: "LINEN THROW PILLOWS", price: "500$", imgURL: `${shop3}` },
+  { id: 4, name: "EBOOK TEMPLATE", price: "500$", imgURL: `${shop4}` },
+  { id: 5, name: "THANK YOU CARD", price: "500$", imgURL: `${shop5}` },
+  { id: 6, name: "BUSINESS CARD", price: "5$", imgURL: `${shop6}` },
+  { id: 7, name: "LINEN THROW PILLOWS", price: "500$", imgURL: `${shop3}` },
+  { id: 8, name: "EBOOK TEMPLATE", price: "500$", imgURL: `${shop4}` },
+  { id: 9, name: "THANK YOU CARD", price: "500$", imgURL: `${shop5}` },
+  { id: 10, name: "BUSINESS CARD", price: "5$", imgURL: `${shop6}` },
+];

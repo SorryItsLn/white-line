@@ -1,12 +1,9 @@
 import React from "react";
 import logo from "../assets/img/logoNav.avif";
-import inst from "../assets/icons/inst.png";
-import yt from "../assets/icons/youtube.png";
-import cart from "../assets/icons/cart.png";
 
 const PreFooter = () => {
   return (
-    <section className="ml-20 w-full bg-white h-[400px] flex justify-center items-center">
+    <section className="pl-20 w-full bg-white h-[350px] flex justify-center items-center ">
       <div className="flex mr-12">
         <div className="mr-1 mt-14">
           <img width={300} height={118} src={logo} alt="logo" />

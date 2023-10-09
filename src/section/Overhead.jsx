@@ -1,5 +1,4 @@
 import React from "react";
-import bg from "../assets/img/background-effect.webp";
 import quotes from "../assets/icons/free-icon-double-quotes-7350738.png";
 import autor from "../assets/img/author.jpg";
 
