@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
 import NavBar from "./section/NavBar";
 import BestSellers from "./pages/BestSellers";
-import Templates from "./pages/Templates";
+import Templates from "./pages/Tempaltes";
 import ForHome from "./pages/ForHome";
 import PreFooter from "./section/PreFooter";
 import Footer from "./section/Footer";

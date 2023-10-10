@@ -1,12 +1,12 @@
 import React from "react";
 import ShopCard from "../components/ShopCard";
 
-const ForHome = () => {
+const Tempaltes = () => {
   return (
     <>
-      <ShopCard name={"For Home"} />
+      <ShopCard name={"Templates"} />
     </>
   );
 };
 
-export default ForHome;
+export default Tempaltes;

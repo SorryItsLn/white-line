@@ -1,11 +1,9 @@
 import React from "react";
 import bg from "../assets/img/background.jpg";
 import { templates } from "../constants/constants";
-import ShopOurCard from "../components/ShopOurCard";
-import PreFooter from "../section/PreFooter";
-import Footer from "../section/Footer";
+import ShopOurCard from "./ShopOurCard";
 
-const Templates = () => {
+const ShopCard = ({ name }) => {
   return (
     <section>
       <div className="block h-[2100px] ">
@@ -15,7 +13,7 @@ const Templates = () => {
             <div className="bg-white w-[1120px] h-[1400px] flex items-center flex-col">
               <h1 className=" font-montserrat  text-gray-600 font-bold text-4xl tracking-widest relative bottom-6 ">
                 {" "}
-                Templates
+                {name}
               </h1>
               <div className="h-[60px]  bg-gray-100 w-full"></div>
               <div className="flex flex-wrap  items-center ml-[15px] ">
@@ -36,4 +34,4 @@ const Templates = () => {
   );
 };
 
-export default Templates;
+export default ShopCard;

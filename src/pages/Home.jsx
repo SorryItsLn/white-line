@@ -6,8 +6,6 @@ import Join from "../section/Join";
 import Overhead from "../section/Overhead";
 import blogBg from "../assets/img/blog-banner.webp";
 import BlogBaner from "../section/BlogBaner";
-import PreFooter from "../section/PreFooter";
-import Footer from "../section/Footer";
 
 const Home = () => {
   return (

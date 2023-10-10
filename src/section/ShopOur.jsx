@@ -30,7 +30,7 @@ const ShopOur = () => {
             />
           ))}
         </div>
-        <div className="text-lg  font-montserrat mb-5 h-[45px] w-[150px] flex justify-center items-center tracking-wider text-white bg-[#545454]">
+        <div className="text-lg  font-montserrat mb-5 h-[45px] w-[150px] flex justify-center items-center tracking-wider text-white bg-[#545454] hover:bg-[#5454549f]">
           <a href="zxc">View all</a>
         </div>
       </div>
